@@ -1,0 +1,342 @@
+{
+  "features": [
+    {
+      "name": "icmpv6_resp_code",
+      "kind": "cat",
+      "n": 6,
+      "obs": 0.93,
+      "layer": "L3"
+    },
+    {
+      "name": "icmpv6_rtt_ms",
+      "kind": "num",
+      "obs": 0.95,
+      "layer": "L3"
+    },
+    {
+      "name": "icmpv6_error_rate",
+      "kind": "num",
+      "obs": 0.9,
+      "layer": "L3"
+    },
+    {
+      "name": "response_delay_ratio",
+      "kind": "num",
+      "obs": 0.92,
+      "layer": "L3"
+    },
+    {
+      "name": "hop_limit",
+      "kind": "num",
+      "obs": 0.96,
+      "layer": "L3"
+    },
+    {
+      "name": "mtu",
+      "kind": "num",
+      "obs": 0.88,
+      "layer": "L3"
+    },
+    {
+      "name": "ext_hdr_profile",
+      "kind": "cat",
+      "n": 6,
+      "obs": 0.72,
+      "layer": "L3"
+    },
+    {
+      "name": "flow_label_echo",
+      "kind": "bin",
+      "n": 2,
+      "obs": 0.83,
+      "layer": "L3"
+    },
+    {
+      "name": "frag_supported",
+      "kind": "bin",
+      "n": 2,
+      "obs": 0.8,
+      "layer": "L3"
+    },
+    {
+      "name": "open_port_count",
+      "kind": "num",
+      "obs": 0.94,
+      "layer": "L4"
+    },
+    {
+      "name": "tcp_flag_profile",
+      "kind": "cat",
+      "n": 6,
+      "obs": 0.91,
+      "layer": "L4"
+    },
+    {
+      "name": "tcp_option_profile",
+      "kind": "cat",
+      "n": 6,
+      "obs": 0.85,
+      "layer": "L4"
+    },
+    {
+      "name": "tcp_window",
+      "kind": "num",
+      "obs": 0.9,
+      "layer": "L4"
+    },
+    {
+      "name": "isn_gcd",
+      "kind": "num",
+      "obs": 0.78,
+      "layer": "L4"
+    },
+    {
+      "name": "udp_open_count",
+      "kind": "num",
+      "obs": 0.76,
+      "layer": "L4"
+    },
+    {
+      "name": "web_port_open",
+      "kind": "bin",
+      "n": 2,
+      "obs": 0.92,
+      "layer": "L4"
+    },
+    {
+      "name": "mail_port_open",
+      "kind": "bin",
+      "n": 2,
+      "obs": 0.92,
+      "layer": "L4"
+    },
+    {
+      "name": "db_port_open",
+      "kind": "bin",
+      "n": 2,
+      "obs": 0.92,
+      "layer": "L4"
+    },
+    {
+      "name": "ics_port_open",
+      "kind": "bin",
+      "n": 2,
+      "obs": 0.9,
+      "layer": "L4"
+    },
+    {
+      "name": "rdp_smb_open",
+      "kind": "bin",
+      "n": 2,
+      "obs": 0.9,
+      "layer": "L4"
+    },
+    {
+      "name": "http_server_class",
+      "kind": "cat",
+      "n": 7,
+      "obs": 0.62,
+      "layer": "L7"
+    },
+    {
+      "name": "http_status_profile",
+      "kind": "cat",
+      "n": 7,
+      "obs": 0.6,
+      "layer": "L7"
+    },
+    {
+      "name": "http_header_len",
+      "kind": "num",
+      "obs": 0.58,
+      "layer": "L7"
+    },
+    {
+      "name": "tls_version",
+      "kind": "cat",
+      "n": 5,
+      "obs": 0.6,
+      "layer": "L7"
+    },
+    {
+      "name": "tls_issuer_class",
+      "kind": "cat",
+      "n": 6,
+      "obs": 0.55,
+      "layer": "L7"
+    },
+    {
+      "name": "dns_recursion",
+      "kind": "cat",
+      "n": 4,
+      "obs": 0.66,
+      "layer": "L7"
+    },
+    {
+      "name": "service_software_class",
+      "kind": "cat",
+      "n": 7,
+      "obs": 0.52,
+      "layer": "L7"
+    },
+    {
+      "name": "banner_entropy",
+      "kind": "num",
+      "obs": 0.64,
+      "layer": "L7"
+    },
+    {
+      "name": "auth_realm_class",
+      "kind": "cat",
+      "n": 5,
+      "obs": 0.5,
+      "layer": "L7"
+    },
+    {
+      "name": "snmp_sysdescr_class",
+      "kind": "cat",
+      "n": 6,
+      "obs": 0.46,
+      "layer": "DV"
+    },
+    {
+      "name": "mgmt_protocol_version",
+      "kind": "cat",
+      "n": 5,
+      "obs": 0.44,
+      "layer": "DV"
+    },
+    {
+      "name": "vendor_oui_class",
+      "kind": "cat",
+      "n": 9,
+      "obs": 0.7,
+      "layer": "DV"
+    },
+    {
+      "name": "ics_protocol_id",
+      "kind": "cat",
+      "n": 5,
+      "obs": 0.4,
+      "layer": "DV"
+    },
+    {
+      "name": "virtual_platform_id",
+      "kind": "cat",
+      "n": 6,
+      "obs": 0.48,
+      "layer": "DV"
+    },
+    {
+      "name": "low_power_mode",
+      "kind": "bin",
+      "n": 2,
+      "obs": 0.55,
+      "layer": "DV"
+    },
+    {
+      "name": "firmware_age_days",
+      "kind": "num",
+      "obs": 0.42,
+      "layer": "DV"
+    }
+  ],
+  "classes": [
+    [
+      "pc",
+      "terminal"
+    ],
+    [
+      "smartphone",
+      "terminal"
+    ],
+    [
+      "ip_camera",
+      "terminal"
+    ],
+    [
+      "smart_hub",
+      "terminal"
+    ],
+    [
+      "router",
+      "network_device"
+    ],
+    [
+      "firewall",
+      "network_device"
+    ],
+    [
+      "plc",
+      "network_device"
+    ],
+    [
+      "web_server",
+      "server"
+    ],
+    [
+      "dns_db_server",
+      "server"
+    ],
+    [
+      "mail_server",
+      "server"
+    ],
+    [
+      "vm_container",
+      "virtual_entity"
+    ]
+  ],
+  "super_classes": [
+    "terminal",
+    "network_device",
+    "server",
+    "virtual_entity"
+  ],
+  "groups": {
+    "L3": [
+      "icmpv6_resp_code",
+      "icmpv6_rtt_ms",
+      "icmpv6_error_rate",
+      "response_delay_ratio",
+      "hop_limit",
+      "mtu",
+      "ext_hdr_profile",
+      "flow_label_echo",
+      "frag_supported"
+    ],
+    "L4": [
+      "open_port_count",
+      "tcp_flag_profile",
+      "tcp_option_profile",
+      "tcp_window",
+      "isn_gcd",
+      "udp_open_count",
+      "web_port_open",
+      "mail_port_open",
+      "db_port_open",
+      "ics_port_open",
+      "rdp_smb_open"
+    ],
+    "L7": [
+      "http_server_class",
+      "http_status_profile",
+      "http_header_len",
+      "tls_version",
+      "tls_issuer_class",
+      "dns_recursion",
+      "service_software_class",
+      "banner_entropy",
+      "auth_realm_class"
+    ],
+    "DV": [
+      "snmp_sysdescr_class",
+      "mgmt_protocol_version",
+      "vendor_oui_class",
+      "ics_protocol_id",
+      "virtual_platform_id",
+      "low_power_mode",
+      "firmware_age_days"
+    ]
+  }
+}
